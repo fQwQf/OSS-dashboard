@@ -196,3 +196,68 @@ select {
     font-weight: bold;
     color: #646cff;
 }
+
+
+/* New styles for Repo-focused dashboard */
+.repo-selector-container {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.repo-selector-container select {
+    width: 100%;
+    max-width: 800px;
+}
+
+.repo-chart-card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 320px; /* Fixed height for consistent chart display */
+}
+
+.chart-area {
+    /* Remove fixed height from previous chart-area style */
+    height: auto;
+    padding: 0;
+    background-color: transparent;
+}
+
+
+
+/* Additional styles for SIG-focused dashboard */
+
+.sig-selector-container {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.sig-selector-container select {
+    width: 100%;
+    max-width: 800px;
+}
+
+.sig-chart-card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 420px; /* Increased height for 7 series chart */
+}
+
+/* New styles for Commit data cards */
+.commit-card p {
+    color: #9C27B0; /* Purple color for commit stats */
+}
+
+/* Adjust card container for more cards */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
