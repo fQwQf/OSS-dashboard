@@ -230,6 +230,8 @@ select {
 /* Additional styles for SIG-focused dashboard */
 
 .sig-selector-container {
+    position: relative;
+    z-index: 10;
     margin-bottom: 20px;
     text-align: left;
     width: 100%;
@@ -241,6 +243,8 @@ select {
 }
 
 .sig-chart-card {
+    position: relative;
+    z-index: 1; 
     background-color: #333;
     border-radius: 8px;
     padding: 10px;
